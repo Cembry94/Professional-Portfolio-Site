@@ -1,3 +1,79 @@
+.intro {
+    display: flex;
+    justify-content: center;  /* Center the image */
+    align-items: center; /* Center the image */
+    gap: 30px; /* Space between the image and the text */
+}
+
+.centered-image {
+    width: auto; /* Adjust this value as per your preference */
+    max-width: 100%; /* Prevents the image from overflowing its container */
+}
+
 h1 {
-    color:red
+    color:rgb(65, 123, 146)
+    justify-content center;
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    gap: 20px; /* Space between each social media icon */
+    justify-content: center; /* Center the icons */
+}
+
+.socials a {
+    color: #333; /* default color */
+    transition: color 0.3s ease; /* smooth color transition */
+}
+
+.socials a:hover {
+    color: #0077b5; /* color on hover, can be changed per platform */
+}
+
+.socials .fa {
+    font-size: 40px; /*Adjust this value as per your preference */
+    margin-right: 10px; /* Optional: Adds some spacing between icons */
+}
+
+.socials a {
+    padding: 5px;
+    display: inline-block;
+    transition: transform 0.3s; /* Optional: Adds a smooth scale effect on hover */
+}
+
+.socials a:hover {
+    transform: scale(1.1); /* Optional: Slightly enlarges the icon when hovered */
+}
+
+:root {
+    --base-color: #4b6168;
+    --complementary-color: #faf3e0;
+    --accent-color: #78a1a9;
+    --background-color: #f5f5f5;
+    --text-color: #2e2e2e;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif; /* You can choose any font you like */
+
+}
+
+.content-container {
+    text-align: center; /* Optional: Aligns the text inside the container */
+}
+
+/* Navigation bar */
+nav {
+    background-color: var(--base-color);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: var(--background-color);
+    text-decoration: none;
+    padding: 10px;
 }
