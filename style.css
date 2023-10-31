@@ -115,3 +115,15 @@ p:nth-child(2) {
 body {
     background: url('\\wsl.localhost\Ubuntu\home\bigcbo94\Coursework\block09\Professional Site\images\space background.jpg') no-repeat center center fixed;
 }
+
+.element {
+    z-index: 1;
+}
+
+.button {
+    transition: all 0.1s ease;
+}
+
+.element {
+    width: calc(100% - 40px);
+}
