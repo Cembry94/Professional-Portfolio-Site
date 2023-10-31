@@ -14,6 +14,7 @@ h1 {
     color:rgb(65, 123, 146)
     justify-content center;
     text-align: center;
+    font-size: 2em;
 }
 
 .socials {
@@ -31,9 +32,9 @@ h1 {
     color: #0077b5; /* color on hover, can be changed per platform */
 }
 
-.socials .fa {
-    font-size: 40px; /*Adjust this value as per your preference */
-    margin-right: 10px; /* Optional: Adds some spacing between icons */
+.socials a i.fa {
+    font-size: 75px !important;/*Adjust this value as per your preference */
+    margin-right: 35px; /* Optional: Adds some spacing between icons */
 }
 
 .socials a {
@@ -58,6 +59,7 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     font-family: 'Roboto', sans-serif; /* You can choose any font you like */
+    font-size: 16px;
 
 }
 
@@ -76,4 +78,28 @@ nav a {
     color: var(--background-color);
     text-decoration: none;
     padding: 10px;
+}
+
+.container {
+    display: grid; /* or flex */
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px; 
+    /* Additional grid or flex properties as needed */ 
+}
+
+p {
+    font-size: 1.5em; /* Instead of say, 24px */
+}
+
+A:hover, button:hover {
+    color: #ff4500;
+    transition: color 0.1s ease-in-out;
+}
+
+.button {
+    transition: background-color 0.1s ease;
+}
+
+.button:hover {
+    background-color: #333;
 }
