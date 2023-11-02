@@ -81,7 +81,7 @@ nav a {
 }
 
 .container {
-    display: grid; /* or flex */
+    display: flex; /* or grid */
     grid-template-columns: 1fr 2fr 1fr;
     gap: 20px; 
     /* Additional grid or flex properties as needed */ 
@@ -91,7 +91,7 @@ p {
     font-size: 1.5em; /* Instead of say, 24px */
 }
 
-A:hover, button:hover {
+a:hover, button:hover {
     color: #ff4500;
     transition: color 0.1s ease-in-out;
 }
@@ -126,4 +126,8 @@ body {
 
 .element {
     width: calc(100% - 40px);
+}
+
+article p:first-child {
+    font-weight: bold;
 }
